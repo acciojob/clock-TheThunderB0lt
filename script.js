@@ -9,10 +9,10 @@ const second = CurrentDate.getSeconds();
 let TimeSatmp = "";
 
 if (hours > 12) {
-	hours = hours%12;
+	hours = hours % 12;
 	TimeSatmp = "PM";
 } else {
-  TimeSatmp = "AM";
+	TimeSatmp = "AM";
 }
 
 DtTime = `${month}/${Day}/${year}, ${hours}:${minute}:${second} ${TimeSatmp}`
